@@ -1,0 +1,113 @@
+Project Research Document – ISeeTraffic
+X00071029 – Aaron Connolly
+October 3, 2014
+
+Detailed Discussion
+
+The idea that I have selected for my project is ISeeTraffic. This is an android application that 
+will allow users to help other users avoid traffic problems. If a user of the application is 
+sitting in traffic and would like to warn other road users of traffic congestion all they will 
+have to do is click the traffic button on the application. Their GPS location and the time the 
+user clicked the traffic button will be stored. This will be used to determine where the 
+problem areas are at each time of the day. The users of the application will receive 
+daily/weekly notices of the problem areas and at which time these areas have traffic 
+congestion. There are two other pieces of functionality I would like to add to the 
+application. These are:
+
+ Newsfeed: I would like to add instant updates of traffic problems in a newsfeed 
+format. When a user of the application clicks the traffic button then the time and 
+their location will be presented onto a newsfeed. This will allow other users within a 
+certain distance to receive a notice of traffic congestion in a certain area.
+
+Accident Report: This functionality would allow users of the application to report an 
+accident. This report of the accident would also appear on the newsfeed.
+
+The Users
+
+This application is aimed at all road users. In particular, road users who are travelling to and 
+from work in rush hour traffic. I feel this application would be of great assistance to them 
+avoiding major traffic congestion.
+
+Existing Applications
+Application Similarities Differences
+Waze  Warns users of 
+traffic congestion.
+ The application is all 
+about togetherness 
+between drivers.
+ Users can report
+traffic accidents.
+ This application 
+provides directions.
+ This application 
+collects data about 
+your drive. E.g.
+speed, detours etc.
+Solving Traffic Congestion  
+Warns users of 
+traffic congestion.
+ Congestion is 
+determined by your 
+speed. 
+ Traffic speeds 
+updates are sent 
+automatically and 
+anonymously.
+
+Platform, Technologies and Libraries
+
+ADT Bundle
+
+I will be using the ADT bundle for the development of this application. ADT Bundle contains 
+all the SDK components that are required along with a version of Eclipse IDE. ADT Bundle 
+provides the below:
+ Android Platform Tools
+ Eclipse + ADT Plug-in
+ Android SDK Tools
+ A system image for the emulator.
+
+XML
+
+XML will be the data exchange format used for the communication between the mobile 
+device and Azure. I have chosen XML because it is a proven standard that also provides a 
+format that is durable for the storage of information and the transmission of that 
+information. It also makes code scalable.
+
+JSON
+
+JSON is an open standard format that is used to transmit data between a server and a web 
+application. This may be used as an alternative to XML.
+
+SQL
+
+SQL is the language that is used to design and manage data in the database. SQL allows data 
+to be inserted into the table, deleted from the table, and updated in the table. It also allows 
+database queries to retrieve information from the database.
+
+Azure
+
+I will be using Windows Azure for the database of the application. Azure is a cloud platform 
+which allows for any tool, language or framework to be used to build the application while 
+also allowing you to maintain the application.
+
+D3
+
+D3 is a JavaScript library that allows you bring data to life. D3 allows you to powerfully visual 
+data. This may be used to visualise the traffic data for my application.
+
+The Risks
+
+I believe that there are risks to my project. These risks are:
+
+ Newsfeed Complexity: Creating a newsfeed for my traffic application will be difficult 
+and complex. After research I discovered that the easiest way to create a newsfeed 
+for an android application is to use a List View. You have to bind the data from the 
+application to the list view.
+ Legality: Another risk I discovered during the research stage of this project is that 
+recently the law changed in Ireland in relation to the use of mobile devices while 
+driving. The law used to allow the use of phones as long as it was in a hands free kit. 
+The law has been now changed, you are not allowed have your phone on display in 
+your car. This a major risk to my application. 
+ GPS Location: There is a risk in relation to the GPS location. The application been a 
+success is determined by its accuracy and efficiency. If the location of the user is 
+incorrect then this would have a major effect on the efficiency of the application.
