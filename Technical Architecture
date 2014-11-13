@@ -1,0 +1,174 @@
+Technical Architecture – ISeeTraffic
+
+Use Cases
+
+Use Case 1:
+Title: Reporting Traffic
+Primary Actor: User
+Scope: The application 
+Level: User reports traffic
+Story: 1. User reports traffic using voice recognition.
+2. The GPS location of the phone is taken.
+3. The GPS location is used to post the information to a twitter page.
+
+Use Case 2:
+Title: Reporting an Accident
+Primary Actor: User
+Scope: The application 
+Level: User reports an accident
+Story: 1. User reports an accident using voice recognition.
+2. The GPS location of the phone is taken.
+3. The GPS location is used to post the information to a twitter page.
+
+Use Case 3:
+Title: Checking Traffic
+Primary Actor: User
+Scope: Twitter
+Level: User checks traffic reports
+Story: 1. User logs into Twitter.
+2. User finds ISeeTraffic page.
+3. User can check to see where the traffic is.
+
+Use Case 4:
+Title: Checking problem areas report
+Primary Actor: User
+Scope: The application 
+Level: User reports traffic
+Story: 1. User reads problem areas report to check where the traffic and 
+accident problem areas are.Technical Architecture
+
+Software Components
+
+Databases & Application Engines:
+It is undecided which of the below cloud platforms will be used for this application.
+
+Azure
+The functionality that Azure provides that will be used is the database.
+
+AWS
+The functionality that AWS provides that will be used is the database.
+
+Mobile Platforms:
+The application will be for an android mobile platform. Android SDK will be used as it 
+provides the API libraries and developer tools that are necessary to build, test and debug 
+applications for Android.
+
+Platform Libraries:
+
+Twitter REST API
+Twitter REST API will be used for the access to read and write Twitter data.
+
+Android API
+The application can be used up to the Android 4.4 (KitKat) API as this is the most up to date 
+API available for android at the moment.
+
+Java
+The application will be written in Java as this is the main developing application language for 
+android.
+
+XML: 
+XML will be used to separate structure from logic. XML is a proven standard that provides a 
+format that is durable for the storage of information and the transmission of that 
+information. It makes code scalable and maintainable.
+
+D3 JavaScript Library:
+D3 JavaScript library is a library which can be used for the reporting functionality of the 
+application. D3 allows for data to be powerfully visualised.
+
+Distribution and Deployment
+In relation to distribution and deployment the aim is to deploy this application on to the 
+Android market.
+
+Risks
+ Voice Recognition: The voice recognition functionality is the main functionality of the 
+application as it allows the user to use the application without breaking the law. It is 
+illegal in Ireland to use your phone while driving so voice recognition is the only way 
+around breaking that law. The risk that voice recognition poses to the delivery of my 
+project is that if it doesn’t work efficiently then the application will not work. 
+ GPS Location: It is crucial to the project that the GPS location is accurate. If the GPS 
+location was incorrect then it would pose a huge threat to the project as users of the 
+application would be reading incorrect information.
+ Application – Twitter: One of the main functionalities of the project is that the 
+information is posted on to a Twitter page. If the information fails to be posted on a 
+twitter page then this would be a huge threat to the project. Prototypes
+
+Week 8 Prototype
+The use cases that will be delivered by week 8 are:
+
+Use Case 1:
+Title: Reporting Traffic
+Primary Actor: User
+Scope: The application 
+Level: User reports traffic
+Story: 4. User reports traffic using voice recognition.
+5. The GPS location of the phone is taken.
+6. The GPS location is used to post the information to a twitter page.
+
+Use Case 2:
+Title: Reporting an Accident
+Primary Actor: User
+Scope: The application 
+Level: User reports an accident
+Story: 4. User reports an accident using voice recognition.
+5. The GPS location of the phone is taken.
+6. The GPS location is used to post the information to a twitter page.
+
+Testing Strategy:
+The functionality in the above use cases will be tested by black-box testing. Test cases will 
+be done up for the below:
+ To test the voice recognition. Valid test cases and invalid test cases will be selected 
+to ensure that the voice recognition works when certain commands are said. For 
+example, if the user says “I see traffic” then the voice recognition should pick up that 
+command. If the user says “Good morning” then the voice recognition shouldn’t pick 
+that sentence up.
+ To test the accuracy of the GPS location. When the user says the “I see traffic” 
+command then the GPS location will be taken. Test cases will be created to test that 
+the location is correct.
+ To test that the information is been posted to a Twitter page. Test cases will be 
+developed to test that the traffic and accident information is posted to a Twitter 
+page.
+
+Week 11 Prototype:
+The use cases that will be delivered by week 11 are:
+
+Use Case 1:
+Title: Reporting Traffic
+Primary Actor: User
+Scope: The application 
+Level: User reports traffic
+Story: 7. User reports traffic using voice recognition.
+8. The GPS location of the phone is taken.
+9. The GPS location is used to post the information to a twitter page.
+
+Use Case 2:
+Title: Reporting an Accident
+Primary Actor: User
+Scope: The application 
+Level: User reports an accident
+Story: 7. User reports an accident using voice recognition.
+8. The GPS location of the phone is taken.
+9. The GPS location is used to post the information to a twitter page.
+
+Use Case 3:
+Title: Checking Traffic
+Primary Actor: User
+Scope: Twitter
+Level: User checks traffic reports
+Story: 4. User logs into Twitter.
+5. User finds ISeeTraffic page.
+6. User can check to see where the traffic is.
+
+Testing Strategy
+The functionality in the above use cases will be tested by black-box testing. Test cases will 
+be done up for the below:
+ To test the voice recognition. Valid test cases and invalid test cases will be selected 
+to ensure that the voice recognition works when certain commands are said. For 
+example, if the user says “I see traffic” then the voice recognition should pick up that 
+command. If the user says “Good morning” then the voice recognition shouldn’t pick 
+that sentence up.
+ To test the accuracy of the GPS location. When the user says the “I see traffic” 
+command then the GPS location will be taken. Test cases will be created to test that 
+the location is correct.
+ To test that the information is been posted to a Twitter page. Test cases will be 
+developed to test that the traffic and accident information is posted to a Twitter 
+page
